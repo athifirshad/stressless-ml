@@ -2,7 +2,7 @@
 
 This project aims to develop a machine learning model capable of accurately determining a person's stress levels based on readings from a PPG (Photoplethysmography) sensor, which is connected to a microcontroller such as Arduino Uno. By extracting 34 different data variables, including Time Domain, Frequency Domain, and Non-Linear Domain features, from two sensor readings (Beats Per Minute and InterBeat Intervals), we can assess stress levels. 
 
-This is however just a bare implementation of the project. Some of the functions do not work. Do not use the code for any medical or scientific results.
+This is however just a bare implementation of the machine learning. Do not use the code for any medical or scientific results. This is a part of the main project.
 
 To obtain certain values like Higuchi fractal dimensions, we utilized a Python library called Antropy, while the hrv-analysis library helped derive specific Frequency Domain data variables and the Sample Entropy value. The remaining variables were defined as functions within the program using mathematical and statistical formulas.
 
