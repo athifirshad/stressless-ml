@@ -5,7 +5,7 @@ import sklearn.datasets
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 #load dataset
-hrvds = pd.read_csv('train1 - Copy.csv')
+hrvds = pd.read_csv('train.csv') #train dataset here
 hrvds.shape
 # seperating data and label
 data = hrvds.drop(columns = 'condition', axis = 1)
